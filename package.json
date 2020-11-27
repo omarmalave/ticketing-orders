@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll --no-cache",
+    "test:ci": "jest",
     "start": "ts-node-dev src/index.ts"
   },
   "jest": {
@@ -47,10 +48,10 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jest": "^24.1.0",
     "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2",
     "jest": "^26.5.2",
     "mongodb-memory-server": "^6.9.0",
-    "prettier": "^2.1.2",
     "supertest": "^5.0.0",
     "ts-jest": "^26.4.1"
-  }
+  },
 }
